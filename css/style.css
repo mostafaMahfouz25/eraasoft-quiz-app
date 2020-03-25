@@ -1,0 +1,29 @@
+
+body
+{
+   /* background-color: #2D3047 */
+}
+.gb-color
+{
+    background-color: #2D3047;
+}
+.sec-color
+{
+    color:#EE6352;
+}
+
+.thir-color
+{
+    color: #00CEA4;
+}
+
+.cont-answer button 
+{
+    font-size: 35px;
+}
+
+#cont-progress h2 
+{
+    background-color: #00CEA4;
+    width: 0px;
+}

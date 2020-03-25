@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title> Quiz App </title>
+</head>
+<body>
+
+    <div class="container mt-4">
+        <h1 class="display-4 text-center">
+          <i class="fas fa-book-open text-primary"></i> <span class="text-primary">Quiz App</span>
+        </h1>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <h3  id="question" class="text-center my-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, harum.
+            </h3>
+          </div>
+        </div>
+
+        <div class="row border p-5 all-answers">
+          <div class="col-md-4">
+            <div class="cont-answer">
+                <button id="ans1" class="btn btn-danger p-4 btn-block display-4" data-answer="">First Answer</button>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="cont-answer">
+                <button id="ans2" class="btn btn-danger p-4 btn-block display-4" data-answer="">Second Answer</button>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="cont-answer">
+                <button id="ans3" class="btn btn-danger p-4 btn-block display-4" data-answer="">Third Answer</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row p-5 border d-none quiz-finish">
+          <div class="col-sm-12">
+            <h1 class="text-center p-2"> Quiz Ended </h1>
+            <h1 class=" p-2 text-center" > Your Score Is <strong class="badge badge-primary p-3 " id="score"> 0 </strong> </h1>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3 mx-auto">
+            <h2 class="p-4 my-3 bg-primary text-center cont-num-question text-white display-4">0</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-10 mx-auto p-0 my-3  border" id=cont-progress>
+            <h2 class="p-0 m-0 py-3 text-center"></h2>
+          </div>
+        </div>
+     
+       
+      </div>
+    
+    
+
+    <!-- https://www.exchangerate-api.com/ -->
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+    
+</body>
+</html>
